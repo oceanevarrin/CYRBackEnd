@@ -10,7 +10,7 @@ const mongoose = require("mongoose");
 const fileUpload = require("express-fileupload");
 const fs = require("fs");
 const PORT =
-  "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";
+  "";
 
 const sgMail = require("@sendgrid/mail");
 sgMail.setApiKey(PORT);

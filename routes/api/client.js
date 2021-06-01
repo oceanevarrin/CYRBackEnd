@@ -1427,7 +1427,7 @@ router.get(
 );
 
 const PORT =
-  "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";
+  "";
 
 const sgMail = require("@sendgrid/mail");
 sgMail.setApiKey(PORT);
